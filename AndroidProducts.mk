@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_dipper.mk
+    $(LOCAL_DIR)/qassa_dipper.mk
+
+COMMON_LUNCH_CHOICES := \
+     qassa_dipper-user \
+     qassa_dipper-userdebug \
+     qassa_dipper-eng
